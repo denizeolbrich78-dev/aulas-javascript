@@ -1,18 +1,12 @@
-const nota1 = 85;
+const nota = 85;
 
-        switch(nota) {
-
-case "nota1"
-(nota >= 90) {
-  console.log('Conceito A')
-  break;
-}
-case "nota1"
- (nota >= 80) {
-  console.log('Conceito B')
-   break;
-} case "nota1"
-{
-  console.log('Precisa melhorar')
-  break;
-}
+switch(true) {
+  case nota >= 90:
+    console.log('Conceito A');
+    break
+  case nota >= 80:
+    console.log('Conceito B');
+    break
+  default:
+    console.log('Precisa melhorar');
+  }
