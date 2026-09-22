@@ -36,7 +36,7 @@ for (let i = 0; i < 5; i++){
 // deveria ser o começo da etapa 4(simulação de venda)
 console.table(Itens)
 let opcao = parseFloat(prompt(`Escolha um item para simular a venda de 0 a ${Itens.length-1}: `))
-while(opcao < 1 || opcao > Itens.length){
+while(opcao < 0 || opcao > Itens.length){
     opcao = parseFloat(prompt(`Invalido. Escolha um item para simular a venda de 0 a ${Itens.length-1}: `))
 }
 console.log("--- Simulação de venda ---")
