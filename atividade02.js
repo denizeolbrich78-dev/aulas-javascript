@@ -1,0 +1,10 @@
+const isAadulto = idade => idade >= 18;
+console.log(isAadulto(540))
+
+
+const getAreaQuadrado = lado => lado*lado
+console.log(getAreaQuadrado(6))
+
+const formatarReal = valor => `R$${valor.toFixed(2)}`
+console.log(formatarReal(5))
+

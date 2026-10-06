@@ -11,7 +11,7 @@ for (let i = 0; i < 5; i++){
     }
     let raridadeItem = "Raro";
     let quantidadeEstoque = 12;
-    // deveria ser o começo da etapa 2(regras de negocio)
+    // deveria ser o começo da etapa 2(regras de negocio) 
     if (precoItem < 100){
         raridadeItem = "Comum"
     } else if (precoItem >= 100 && precoItem<500){

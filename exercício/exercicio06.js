@@ -1,2 +1,15 @@
-function idade(idade >= 18)
-console.log(idade)
+
+function verificarIdade(idade) {
+    return idade >= 18 ? 'Permitido' : 'Bloqueado'
+}
+console.log(verificarIdade(18))
+
+
+
+
+
+
+
+
+
+
