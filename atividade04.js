@@ -17,6 +17,15 @@ const elementosFake = [
   ];
   
 
-for (const nome in elementos) {
-  console.log(nome, ':', elementos[nome]);
+for (const nome in elementosFake) {
+  console.log(nome, ':', elementosFake[nome]);
 }
+
+
+const cor = { elementoFake: [], ativo: false };
+const atualizado = { ...cor, ativo: true };
+
+console.log(atualizado); // { nome: 'Ana', ativo: true }
+
+
+
