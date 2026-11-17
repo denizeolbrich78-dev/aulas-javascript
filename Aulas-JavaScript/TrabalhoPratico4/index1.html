@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurante</title>
+
     <style>
         header {
             height: 20px;
@@ -29,18 +31,36 @@
         }
 
         main {
-            height: 20px;
+            min-height: 30px;   
             border: 1px solid black;
             padding: 20px 30px;
-            justify-content: space-between;
+        }
+
+        section {
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
             align-items: center;
+            min-height: 20px;
+        }
+
+        section label {
+            width: 95%;
+        }
+
+        section input {
+            width: 100%;
+            height: 30px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
+
     <header>
         <h1>LOGO</h1>
+
         <nav>
             <ul>
                 <li><a href="inicio.com">Inicio</a></li>
@@ -49,11 +69,17 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section>
-            <label><input type="text" id="searchfield" placeholder="Buscar" style="text-align: center;"></label>
+            <label>
+                <input type="text" placeholder="Buscar">
+            </label>
+        </section>
+        <section>
+            <h1>DESTAQUE</h1>
         </section>
     </main>
-</body>
 
+</body>
 </html>
