@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br" data-theme="dark">
 
@@ -6,114 +7,203 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Walking Date</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+
     <header>
         <h1>The Walking Date</h1>
         <p><em>Encontre seu verdadeiro amor pós-vida</em></p>
+
         <nav>
             <ul>
-                <li><a href="inicio.com">Inicio</a></li>
-                <li><a href="beneficios.com">Beneficios</a></li>
-                <li><a href="cadastro.com">Cadastro</a></li>
+                <li><a href="#boas-vindas">Início</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+                <li><a href="#cadastro">Cadastro</a></li>
             </ul>
         </nav>
-        <button id="btn-tema">Alternar Sobrevivência (Tema)</button>
+
+        <button type="button" id="btn-tema">
+            Alternar Sobrevivência (Tema)
+        </button>
+
+        <span id="placar-matches">Matches: 0</span>
     </header>
+
+    <div id="barra-alerta">
+        <button type="button" id="fechar-alerta">X</button>
+    </div>
+
     <main>
+
         <section id="boas-vindas">
-            <h2>Boas vindas</h2>
+            <h2>Boas-vindas!</h2>
+
             <figure>
-                <img src="https://www.bing.com/th/id/OIP.YMCemAhEiRzm_Z4UEHr1-gAAAA?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2"
+                <img
+                    src="https://www.bing.com/th/id/OIP.YMCemAhEiRzm_Z4UEHr1-gAAAA?w=193&h=135&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2"
                     alt="Casal de zumbis felizes">
-                <figcaption>Amor verdadeiro além do túmulo</figcaption>
+
+                <figcaption>
+                    Amor verdadeiro além do túmulo
+                </figcaption>
             </figure>
         </section>
+
         <section id="beneficios">
             <h2>Por que usar o The Walking Date?</h2>
+
             <ol>
-                <li><strong>encontros carnivoros</strong></li>
-                <li><strong>encontros carnivoros</strong></li>
-                <li><strong>encontros carnivoros</strong></li>
-                <li><strong>encontros carnivoros</strong></li>
-                <li><strong>encontros carnivoros</strong></li>
+                <li><strong>Encontros carnívoros.</strong></li>
+                <li><strong>Conheça outros mortos.</strong></li>
+                <li><strong>Viva seu romance pós-morte.</strong></li>
+                <li><strong>Encontre seu amor pós-vida.</strong></li>
+                <li><strong>Uso grátis.</strong></li>
             </ol>
         </section>
+
         <aside>
-            <h3>
-                <p>Dica do Cupido Zumbi</p>
-            </h3>
+            <h3>Dica do Cupido Zumbi</h3>
+
             <section id="depoimentos">
                 <article>
-                    <blockquote>67<cite>- zumbi apaixonado</cite></blockquote>
+                    <blockquote>
+                        Use o The Walking Date.
+                        <cite>- zumbi apaixonado</cite>
+                    </blockquote>
                 </article>
             </section>
+
             <section id="faq">
                 <details class="cartao-zumbi">
                     <summary>Zumbis veganos são aceitos?</summary>
-                    <p>67</p>
+                    <p>Sim.</p>
                 </details>
             </section>
         </aside>
+
         <section id="planos">
             <fieldset>
+                <legend>Planos de assinatura</legend>
+
                 <table>
                     <caption>Planos de Assinatura</caption>
+
                     <thead>
                         <tr>
                             <th>Plano</th>
-                            <th>Beneficios</th>
+                            <th>Benefícios</th>
                             <th>Preço em cérebro</th>
                         </tr>
                     </thead>
+
                     <tbody>
                         <tr>
-                            <td>Plano 1</td>
-                            <td>67</td>
-                            <td>67</td>
+                            <td>Cérebro Plus</td>
+                            <td>10% de visibilidade a mais.</td>
+                            <td>50 cérebros.</td>
                         </tr>
+
                         <tr>
-                            <td>Plano 2</td>
-                            <td>676</td>
-                            <td>676</td>
+                            <td>Cérebro Plus+</td>
+                            <td>25% de visibilidade a mais.</td>
+                            <td>100 cérebros.</td>
                         </tr>
+
                         <tr>
-                            <td>Plano 3</td>
-                            <td>76</td>
-                            <td>76</td>
+                            <td>Cérebro VIP</td>
+                            <td>60% de visibilidade a mais.</td>
+                            <td>220 cérebros.</td>
                         </tr>
                     </tbody>
-
                 </table>
-        </section>
-        </fieldset>
-        <section id="cadastro">
-            <form action="#" method="POST"></form>
-            <fieldset>
-                <legend>Seus Dados Mortais</legend>
-                <label for="nome">nome:<input type="text"></label>
-                <label for="email">email:<input type="email"></label>
-                <h3>Dieta principal</h3>
-                <label for="dieta principal"><input type="radio">Miolos<input type="radio">Musculos<input
-                        type="radio">Ambos</label>
-                        <h3>Nivel de nivel de decomposição</h3>
-                <select name="Nivel de nivel de decomposição" id="nivel-decomposicao">
-                    <option value="nivel1">nivel1</option>
-                    <option value="nivel2">nivel2</option>
-                    <option value="nivel3">nivel3</option>
-                    <option value="nivel4">nivel4</option>
-                    <option value="nivel5">nivel5</option>
-                </select>
             </fieldset>
+        </section>
 
-            <button type="submit"; class="botao-match">Buscar Partida</button>
+        <section id="cadastro">
+            <form id="form-cadastro" action="#" method="POST">
+
+                <fieldset>
+                    <legend>Seus Dados Mortais</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+
+                    <small id="preview-cracha">
+                        Crachá: ...
+                    </small>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+
+                    <h3>Dieta principal</h3>
+
+                    <label>
+                        <input type="radio" name="dieta" value="miolos">
+                        Miolos
+                    </label>
+
+                    <label>
+                        <input type="radio" name="dieta" value="musculos">
+                        Músculos
+                    </label>
+
+                    <label>
+                        <input type="radio" name="dieta" value="ambos">
+                        Ambos
+                    </label>
+
+                    <h3>Nível de decomposição</h3>
+
+                    <label for="nivel-decomposicao">
+                        Selecione seu nível:
+                    </label>
+
+                    <select name="nivel-decomposicao" id="nivel-decomposicao">
+                        <option value="nivel1">Nível 1</option>
+                        <option value="nivel2">Nível 2</option>
+                        <option value="nivel3">Nível 3</option>
+                        <option value="nivel4">Nível 4</option>
+                        <option value="nivel5">Nível 5</option>
+                    </select>
+
+                </fieldset>
+
+                <button type="submit" class="botao-match">
+                    Dar Match Sangrento
+                </button>
+
+            </form>
+        </section>
+
     </main>
+
+    <section id="calculadora-zumbi">
+        <h2>Calculadora de Compatibilidade Zumbi</h2>
+
+        <input
+            type="number"
+            id="dias-infectado"
+            placeholder="Seus dias infectado"
+            min="0">
+
+        <input
+            type="number"
+            id="dias-parceiro"
+            placeholder="Dias do parceiro"
+            min="0">
+
+        <button type="button" id="btn-calcular">
+            Calcular Química
+        </button>
+
+        <p id="resultado-quimica"></p>
+    </section>
+
     <footer>
         <small>Direitos autorais do cemitério.</small>
     </footer>
 
-    </section>
 </body>
-
 </html>
